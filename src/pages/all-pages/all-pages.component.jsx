@@ -100,9 +100,9 @@ export const MySkill = () => {
       <div className='contact'>
         <div className='skill-description'>
           <h1>MY SKILL</h1>
-          <p>My area of my specialization is frontend development (client side of the web).</p>
-          <p>HTML, CSS (SASS), Javascript,  building small and medium web apps with React/Redux, animations, and coding interactive layouts.</p>
-          <p>I also have backend experience using Node.js, PostgreSQL,  NOSQL</p>
+          <p>My area of my specialization is backend development.</p>
+        
+          <p>I have backend experience using Python and Golang</p>
           <p>View my <a style={{textDecoration: 'underline'}} href='https://drive.google.com/open?id=1XgRxb6v3XmM1JNfNVaeN1cPnmO78FcSv'>resume</a> for more details on my experience</p>
         </div>
       </div>
