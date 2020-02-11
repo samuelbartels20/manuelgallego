@@ -1,0 +1,103 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Courier Prime', monospace;
+  margin: 0;
+  background: #1D1D1D;
+}
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #08FDD8;
+  
+}
+
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+button {
+  width:auto;
+  background: none;
+  color: #08fdd8;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  font-family: "Open Sans",sans-serif;
+  text-decoration: none;
+  padding: 10px 18px;
+  border: 1px solid #08fdd8;
+  margin-top: 25px;
+}
+button:hover {
+  background: #08fdd8;
+  color: rgb(54, 53, 53);
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  color: beige;
+}
+
+.content {
+  width: calc(100% - 60px);
+  height: auto;
+  padding-top: 10%;
+  padding-left: 50px;
+  
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 250px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait){ 
+    .content {
+      width: 100%;
+      padding: 10% 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @keyframes preloader{
+  0%{
+    opacity: 0.25;
+    transform:translate(-100vw, 0);}
+  50%{
+    opacity: 0.5;
+    transform:translate(-50vw, 0);}
+  100%{
+    opacity: 1;
+    transform:translate(0, 0);}
+} */
+
+/* #181818 */

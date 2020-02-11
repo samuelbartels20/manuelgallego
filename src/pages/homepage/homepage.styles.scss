@@ -1,0 +1,169 @@
+.homepage {
+  opacity: 1;
+  animation:preloader 3s linear;
+  display: flex;
+
+  .person { 
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 70%;
+      animation:h 5s linear infinite;
+    }
+  }
+
+  .intro {
+    display: grid;
+    width: 50%;
+    
+    
+    h1 {
+      align-self: flex-end;
+      font-size:50px;
+      font-weight: bold;
+      
+      span{
+        display:inline-block;
+        letter-spacing: 4px;
+        animation-duration: .8s;
+        animation-fill-mode: both;
+        animation-iteration-count: 1;
+
+        &:nth-of-type(6), &:nth-of-type(18){
+          &::after {
+            content: '-';
+            visibility: hidden;
+          }
+        }
+
+        &:hover{
+          animation-name: rubberBand;
+          color: #08FDD8;
+        }
+      }
+    }
+    h2 {
+      color: #8d8d8d;
+      font-weight: 400;
+      font-size: 14px;
+      font-family: "Open Sans",sans-serif;
+      letter-spacing: 3px;
+    }
+  }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 250px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait){ 
+    .homepage {
+      .intro{
+        margin-top: 10%;
+      }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+  .homepage{
+    display: grid;
+    .person {
+      width: 100%;
+      padding-top: 70px;
+      img {
+        width: 100%;
+        animation: none;
+      }
+    }
+    .intro{
+      width: 100%;
+      h1 {
+        font-size: 30px;
+    }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 1024px){
+  .homepage{
+    display: grid;
+    .person {
+      width: 70%;
+      margin: auto;
+      padding-top: 70px; 
+      img {
+        width: 100%;
+        animation: none;
+      }
+    }
+    .intro{
+      width: 100%;
+    //   h1 {
+    //     font-size: 30px;
+    // }
+    }
+  }
+}
+
+@keyframes h{
+  0%{transform:translate(0, 0);}
+  50%{transform:translate(0px, 30px);}
+  100%{transform:translate(0, 0);}
+}
+
+// @keyframes preloader{
+//   0%{
+//     opacity: 0.25;
+//     transform:translate(-100vw, 0);}
+//   50%{
+//     opacity: 0.5;
+//     transform:translate(-50vw, 0);}
+//   100%{
+//     opacity: 1;
+//     transform:translate(0, 0);}
+// }
+
+@keyframes v{
+  0%{transform:translate(0, 0);}
+  20%{transform:rotate(360deg);}
+  50%{transform:scale(2);}
+  80%{transform:translate(0, 0);}
+  100%{transform:translate(0, 0);}
+}
+
+@keyframes rubberBand {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    transform: scale3d(.95, 1.05, 1);
+  }
+
+  75% {
+    transform: scale3d(1.05, .95, 1);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
