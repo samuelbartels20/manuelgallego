@@ -3,10 +3,7 @@ import React from 'react';
 import './all-pages.styles.scss';
 
 import MyPicture from '../../assets/aquila.jpg';
-import Portfolio from '../../assets/portfolio.jpeg';
-import ArticleViewer from '../../assets/article-viewer.jpeg';
-import Ecommerce from '../../assets/ecommerce.jpeg';
-import FaceRecognition from '../../assets/face-recognition.jpeg';
+
 
 export const About = () => {
   return ( 
@@ -41,55 +38,7 @@ export const Contact = () => {
 export const MyWork = () => { 
   return ( 
       <div className='my-work'>
-        <details>
-          <summary className='card'>
-            <img src={Ecommerce} alt=''/>
-            <h3>CROWN CLOTHING</h3>
-          </summary>
-          <div>
-            <img src={Ecommerce} alt=''/>
-            <p>Description: Crown Clothing is an ecommerce website built with react and redux. This 
-            website uses firebase for authentication and storage and stripe for payments. <a href='https://github.com/Aquilaafuadajo/ecommerce-shop'>View project on github</a>
-            </p>
-          </div>
-        </details>
-        <details>
-          <summary className='card'>
-            <img src={ArticleViewer} alt=''/>
-            <h3>STAY UPDATED</h3>
-          </summary>
-          <div>
-            <img src={ArticleViewer} alt=''/>
-            <p>Description: Stay Updated is a web app that keeps users updated with the latest articles that 
-            has just been published. It searches for articles from over 30,000 news sources 
-            and blogs. It allows users to sign up for daily reminder of every article published.
-            It's built with React/Redux and Firebase for storage and authentication <a href='https://github.com/Aquilaafuadajo/stayupdated'>View project on github</a>
-            </p>
-          </div>
-        </details>
-        <details>
-          <summary className='card'>
-            <img src={FaceRecognition} alt=''/>
-            <h3>FACE RECOGNITION APP</h3>
-          </summary>
-          <div>
-            <img src={FaceRecognition} alt=''/>
-            <p>Description: An app that detects the presence and location of human faces with a bound-
-            ing box, and increases in count by the number of face a user has registered.
-            Front-end built with React.js and Back-end built with Node.js. <a href='https://frontend-smartbrain-project.herokuapp.com/'>View Project</a>
-            </p>
-          </div>
-        </details>
-        <details>
-          <summary className='card'>
-            <img src={Portfolio} alt=''/>
-            <h3>MY PERSONAL PORTFOLIO</h3>
-          </summary>
-          <div>
-            <img src={Portfolio} alt=''/>
-            <p>Description: As you can see, this is my personal portfolio built with react and pure sass/css</p>
-          </div>
-        </details>
+        
         
       </div>
     );
