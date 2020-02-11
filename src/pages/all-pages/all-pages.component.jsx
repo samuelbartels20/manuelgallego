@@ -13,10 +13,10 @@ export const About = () => {
     <div className='about'>
       <div className='write-up'>
         <h1>About Me</h1>
-        <p>I'm a passionate Front End developer, a lover of JavaScript with hands-on experience in efficiently coding web applications using modern HTML, CSS, and JavaScript</p>
-        <p>My childhood curiosity led to my educational focus in engineering and technology, and over the years I have gained experience in building responsive web applications with JavaScript/react.js. <br/>
+        <p>I'm a passionate  Software Developer, a lover of Python with hands-on experience in efficiently coding web applications using modern Python and Golang</p>
+        <p>My childhood curiosity led to my educational focus in engineering and technology, and over the years I have gained experience in building responsive web applications with Python(Django) and Golang. <br/>
         My programming experience has been both challenging and fun working on programming projects with the added thrill of being able to communicate directly with my computer.</p>
-        <p>PS: When I'm not coding, I love to watch movie series.</p>
+        <p>PS: When I'm not coding, I love to skate.</p>
         <code className='code'>ROTATE SCREEN TO SEE MY PICTURE :) </code>
       </div>
       <div className='me'>
@@ -32,7 +32,7 @@ export const Contact = () => {
       <div className='contact'>
         <h1>CONTACT</h1>
         <h3>Woah! Let's do business</h3>
-        <p>Let's talk over the mail:</p><a href='mailto:aquilaafuadajo@gmail.com'><button>mail me</button></a><br/>
+        <p>Let's talk over the mail:</p><a href='mailto:josheriff@gmail.com'><button>mail me</button></a><br/>
         <a href='https://drive.google.com/open?id=1XgRxb6v3XmM1JNfNVaeN1cPnmO78FcSv'><button>my resume</button></a>
       </div>
     );
