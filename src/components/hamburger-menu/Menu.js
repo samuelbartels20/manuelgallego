@@ -16,9 +16,6 @@ const Menu = ({ className, handleLinkClick }) => (
         <Link to="/skill" onClick={handleLinkClick}>SKILL</Link>
       </li>
       <li className={styles.navigation__item}>
-        <Link to="/mywork" onClick={handleLinkClick}>WORK</Link>
-      </li>
-      <li className={styles.navigation__item}>
         <Link to="/contact" onClick={handleLinkClick}>CONTACT</Link>
       </li>
     </ul>

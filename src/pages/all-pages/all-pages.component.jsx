@@ -30,7 +30,7 @@ export const Contact = () => {
         <h1>CONTACT</h1>
         <h3>Woah! Let's do business</h3>
         <p>Let's talk over the mail:</p><a href='mailto:josheriff@gmail.com'><button>mail me</button></a><br/>
-        <a href='https://drive.google.com/open?id=1XgRxb6v3XmM1JNfNVaeN1cPnmO78FcSv'><button>my resume</button></a>
+        <a href='https://drive.google.com/file/d/0B7FU8TLvhc1WWFYtMGR2eDU4MGxXYkxaY1NBTWhzTUROZkI0/view?usp=sharing'><button>my resume</button></a>
       </div>
     );
 }
@@ -52,7 +52,7 @@ export const MySkill = () => {
           <p>My area of my specialization is backend development.</p>
         
           <p>I have backend experience using Python and Golang</p>
-          <p>View my <a style={{textDecoration: 'underline'}} href='https://drive.google.com/open?id=1XgRxb6v3XmM1JNfNVaeN1cPnmO78FcSv'>resume</a> for more details on my experience</p>
+          <p>View my <a style={{textDecoration: 'underline'}} href='https://drive.google.com/file/d/0B7FU8TLvhc1WWFYtMGR2eDU4MGxXYkxaY1NBTWhzTUROZkI0/view?usp=sharing'>resume</a> for more details on my experience</p>
         </div>
       </div>
     );
