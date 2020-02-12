@@ -51,7 +51,7 @@ export const MySkill = () => {
           <h1>MY SKILL</h1>
           <p>My area of my specialization is backend development.</p>
         
-          <p>I have backend experience using Python and Golang</p>
+          <p>I have backend experience using Python and Nodejs</p>
           <p>View my <a style={{textDecoration: 'underline'}} href='https://drive.google.com/file/d/0B7FU8TLvhc1WWFYtMGR2eDU4MGxXYkxaY1NBTWhzTUROZkI0/view?usp=sharing'>resume</a> for more details on my experience</p>
           <p>View my <a style={{textDecoration: 'underline'}} href='https://trello.com/b/eiqqdJrH/python-developer-tdd-solid-jose-manuel-gallego'> trello resume</a> for more details on my experience</p>
         </div>
