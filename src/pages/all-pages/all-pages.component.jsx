@@ -10,7 +10,7 @@ export const About = () => {
     <div className='about'>
       <div className='write-up'>
         <h1>About Me</h1>
-        <p>I'm a passionate  Software Developer, a lover of Python with hands-on experience in efficiently coding web applications using modern Python and Golang</p>
+        <p>I'm a passionate  Software Developer, a lover of Python with hands-on experience in efficiently coding web applications using modern Python and Nodejs</p>
         <p>My childhood curiosity led to my educational focus in engineering and technology, and over the years I have gained experience in building responsive web applications with Python(Django) and Golang. <br/>
         My programming experience has been both challenging and fun working on programming projects with the added thrill of being able to communicate directly with my computer.</p>
         <p>PS: When I'm not coding, I love to skate.</p>
